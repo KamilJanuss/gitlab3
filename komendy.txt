@@ -1,0 +1,31 @@
+git commit 
+git commit --amend
+git fakeTeamwork 
+git branch myBranch 
+git checkout <nazwa-gałęzi> 
+git switch <nazwa-gałęzi> 
+git checkout -b <nazwa-gałęzi> # tworzenie
+git checkout -b totallyNotMain o/main 
+git branch -u o/main foo 
+git branch -f main HEAD~3
+git merge <nazwa-gałęzi> 
+git checkout <nazwa>; git merge main # przełączenie na gałąź i merge z main
+git rebase <gałąź-docelowa> 
+git rebase -i HEAD~4
+git reset 
+git revert <commit>
+git cherry-pick <Commit1> <Commit2> <...> 
+git describe 
+git describe <ref>
+git bisect 
+git log 
+git checkout HEAD~^2~2 
+git clone <repo-url> 
+git fetch 
+git fetch origin foo 
+git fetch origin :bar 
+git pull --rebase 
+git push 
+git push origin <source>:<destination> 
+git push origin main:newBranch 
+git push origin :foo 
